@@ -1,0 +1,5 @@
+kal=int(input("enter the numbers"))
+for i in range(1,kal+1):
+    print(" " * (kal - i)+ "*" * (2*i-1))
+for j in range(kal-1,0,-1):
+    print(" " * (kal - j)+ "*" * (2*j-1))
